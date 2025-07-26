@@ -57,7 +57,7 @@ export const products: Product[] = [
     "name": "Ruby Gold Maida",
     "slug": "ruby-gold-maida",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "/assets/products/AaharShri-Ruby-Maida.jpeg",
+    "image": "/assets/products/Ruby-Maida.png",
     "aiHint": "maida packet",
     "moq": "4.1 Ton",
     "details": {
@@ -74,7 +74,7 @@ export const products: Product[] = [
     "name": "Aaharshri Bran",
     "slug": "aaharshri-bran",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "/assets/products/AaharShri-Bran.jpeg",
+    "image": "/assets/products/AaharShri-Bran.png",
     "aiHint": "food product",
     "moq": "3.2 Ton",
     "details": {

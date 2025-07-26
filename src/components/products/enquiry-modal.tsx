@@ -26,7 +26,37 @@ interface EnquiryModalProps {
 
 export function EnquiryModal({ product, isOpen, onOpenChange }: EnquiryModalProps) {
   const [unit, setUnit] = useState('Ton');
+  const [quantity, setQuantity] = useState('');
+  const [mobile, setMobile] = useState('');
+  const [loading, setLoading] = useState(false);
   if (!isOpen) return null;
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    console.log("I am calling bot to send me message");
+    try {
+      const res = await fetch("/api/send-telegram", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productName: product.name,
+          quantity,
+          unit,
+          mobile,
+        }),
+      });
+
+      if (!res.ok) throw new Error("Failed to send enquiry");
+      alert("✅ Enquiry sent!");
+      onOpenChange(false);
+    } catch (err) {
+      console.error("Error sending enquiry:", err);
+      alert("❌ Failed to send enquiry. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
@@ -55,11 +85,16 @@ export function EnquiryModal({ product, isOpen, onOpenChange }: EnquiryModalProp
               <DialogTitle className="text-2xl font-headline font-bold text-primary">Get a Quick Quote</DialogTitle>
             </DialogHeader>
             
-            <form action="#" className="space-y-6 flex-grow flex flex-col">
+            <form onSubmit={handleSubmit} className="space-y-6 flex-grow flex flex-col">
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-1">
                   <Label htmlFor="quantity" className="text-xs text-muted-foreground">Quantity</Label>
-                  <Input id="quantity" placeholder="e.g., 100" />
+                  <Input 
+                    id="quantity"
+                    placeholder="e.g., 100"
+                    value={quantity}
+                    onChange={(e) => setQuantity(e.target.value)}
+                  />
                 </div>
                 <div className="space-y-1">
                   <Label htmlFor="units" className="text-xs text-muted-foreground">Measurement Units</Label>
@@ -83,12 +118,20 @@ export function EnquiryModal({ product, isOpen, onOpenChange }: EnquiryModalProp
                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 15" className="h-4 w-6 flex-shrink-0"><path fill="#f93" d="M0 0h21v5H0z"/><path fill="#fff" d="M0 5h21v5H0z"/><path fill="#128807" d="M0 10h21v5H0z"/><g transform="translate(10.5 7.5)"><circle r="2" fill="#000080"/><circle r="1.75" fill="#fff"/><path fill="#000080" d="M0-1.75a.175.175 0 0 0 0 3.5.175.175 0 0 0 0-3.5zm0 .175a1.575 1.575 0 1 1 0 3.15 1.575 1.575 0 0 1 0-3.15z"/><g id="d"><g id="c"><g id="b"><g id="a"><path d="M0-1.75-.054.175.108 0z" transform="rotate(7.5)"/><path d="M0-1.75-.108.175.216 0z" transform="rotate(15)"/></g><use xlinkHref="#a" transform="rotate(15)"/></g><use xlinkHref="#b" transform="rotate(30)"/></g><use xlinkHref="#c" transform="rotate(60)"/></g><use xlinkHref="#d" transform="rotate(120)"/><use xlinkHref="#d" transform="rotate(240)"/></g></svg>
                      <span className="text-sm font-medium text-foreground">+91</span>
                    </div>
-                   <Input id="mobile" placeholder="Enter Mobile No." className="rounded-l-none" />
+                  <Input
+                    id="mobile"
+                    placeholder="Enter Mobile No."
+                    className="rounded-l-none"
+                    value={mobile}
+                    onChange={(e) => setMobile(e.target.value)}
+                  />
                 </div>
               </div>
               
               <div className="mt-auto pt-4">
-                <Button type="submit" className="w-full font-bold py-3 text-lg">Send Enquiry</Button>
+                <Button type="submit" className="w-full font-bold py-3 text-lg" disabled={loading}>
+                  {loading ? "Sending..." : "Send Enquiry"}
+                </Button>
               </div>
             </form>
 
