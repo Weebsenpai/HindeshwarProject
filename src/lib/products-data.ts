@@ -23,7 +23,7 @@ export const products: Product[] = [
     "name": "Aaharshri Atta",
     "slug": "aaharshri-atta",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/AaharShri-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "2.3 Ton",
     "details": {
@@ -40,7 +40,7 @@ export const products: Product[] = [
     "name": "Aaharshri Maida",
     "slug": "aaharshri-maida",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/AaharShri-Maida.jpeg",
     "aiHint": "maida packet",
     "moq": "2.8 Ton",
     "details": {
@@ -57,7 +57,7 @@ export const products: Product[] = [
     "name": "Ruby Gold Maida",
     "slug": "ruby-gold-maida",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/AaharShri-Ruby-Maida.jpeg",
     "aiHint": "maida packet",
     "moq": "4.1 Ton",
     "details": {
@@ -74,7 +74,7 @@ export const products: Product[] = [
     "name": "Aaharshri Bran",
     "slug": "aaharshri-bran",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/AaharShri-Bran.jpeg",
     "aiHint": "food product",
     "moq": "3.2 Ton",
     "details": {
@@ -91,7 +91,7 @@ export const products: Product[] = [
     "name": "Super Coin Atta",
     "slug": "super-coin-atta",
     "brand": "Abhani Foods",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/SuperCoin-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "1.5 Ton",
     "details": {
@@ -108,7 +108,7 @@ export const products: Product[] = [
     "name": "Kesari Nadan Besan",
     "slug": "kesari-nadan-besan",
     "brand": "Bajrangi Product",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Kesari-Nandan-Besan.jpeg",
     "aiHint": "besan packet",
     "moq": "0.7 Ton",
     "details": {
@@ -125,7 +125,7 @@ export const products: Product[] = [
     "name": "Salasar Gold Besan",
     "slug": "salasar-gold-besan",
     "brand": "Bhavya Industries",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Salasar-Besan.jpeg",
     "aiHint": "besan packet",
     "moq": "4.9 Ton",
     "details": {
@@ -142,7 +142,7 @@ export const products: Product[] = [
     "name": "Canada Mattar Flour",
     "slug": "canada-mattar-flour",
     "brand": "Bhavya Industries",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Canada-Mattar-Aata.png",
     "aiHint": "food product",
     "moq": "3.5 Ton",
     "details": {
@@ -159,7 +159,7 @@ export const products: Product[] = [
     "name": "Gajraj Golden Dalia",
     "slug": "gajraj-golden-dalia",
     "brand": "Gajraj Agro Daliya",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Garaj-Golden-Dalia.jpeg",
     "aiHint": "dalia box",
     "moq": "1.8 Ton",
     "details": {
@@ -176,7 +176,7 @@ export const products: Product[] = [
     "name": "Gajraj Kesari Rawa",
     "slug": "gajraj-kesari-rawa",
     "brand": "Gajraj Agro Daliya",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Garaj-Kesari-Rawa.jpeg",
     "aiHint": "rawa packet",
     "moq": "1.1 Ton",
     "details": {
@@ -193,7 +193,7 @@ export const products: Product[] = [
     "name": "Gajraj Lapsi",
     "slug": "gajraj-lapsi",
     "brand": "Gajraj Agro Daliya",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Garaj-Golden-Lapsi.jpeg",
     "aiHint": "food product",
     "moq": "2.0 Ton",
     "details": {
@@ -210,7 +210,7 @@ export const products: Product[] = [
     "name": "Soya Chunks",
     "slug": "soya-chunks",
     "brand": "House Of Taste",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/HOT-SoyaChunks.jpeg",
     "aiHint": "soya chunks",
     "moq": "2.5 Ton",
     "details": {
@@ -227,7 +227,7 @@ export const products: Product[] = [
     "name": "Chakki Fresh Atta",
     "slug": "chakki-fresh-atta",
     "brand": "House Of Taste",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/HOT-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "4.5 Ton",
     "details": {
@@ -244,7 +244,7 @@ export const products: Product[] = [
     "name": "Compound Hing",
     "slug": "compound-hing",
     "brand": "House Of Taste",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/HOT-Hing.jpeg",
     "aiHint": "food product",
     "moq": "2.9 Ton",
     "details": {
@@ -261,7 +261,7 @@ export const products: Product[] = [
     "name": "Madhuri Cold-Pressed-Non-Refined-Groundnut-Oil",
     "slug": "madhuri-cold-pressed-non-refined-groundnut-oil",
     "brand": "Madhuri Oil",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Madhuri-Ground-Nut.png",
     "aiHint": "oil bottle",
     "moq": "1.3 Ton",
     "details": {
@@ -278,7 +278,7 @@ export const products: Product[] = [
     "name": "Madhuri Refined-Soybean-Oil",
     "slug": "madhuri-refined-soybean-oil",
     "brand": "Madhuri Oil",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Madhuri-SoyaBean.png",
     "aiHint": "oil bottle",
     "moq": "4.7 Ton",
     "details": {
@@ -295,7 +295,7 @@ export const products: Product[] = [
     "name": "Madhuri-Filtered-Mustard-Oil",
     "slug": "madhuri-filtered-mustard-oil",
     "brand": "Madhuri Oil",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Madhuri-Mustard.png",
     "aiHint": "oil bottle",
     "moq": "0.6 Ton",
     "details": {
@@ -312,7 +312,7 @@ export const products: Product[] = [
     "name": "Heera Moti Atta",
     "slug": "heera-moti-atta",
     "brand": "Malwa Agro Foods",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Heera-Moti-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "3.3 Ton",
     "details": {
@@ -329,7 +329,7 @@ export const products: Product[] = [
     "name": "Heera Moti Bran",
     "slug": "heera-moti-bran",
     "brand": "Malwa Agro Foods",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Heera-Moti-Bran.jpeg",
     "aiHint": "food product",
     "moq": "3.8 Ton",
     "details": {
@@ -346,7 +346,7 @@ export const products: Product[] = [
     "name": "Smart Atta",
     "slug": "smart-atta",
     "brand": "Malwa Agro Foods",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Smart-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "1.0 Ton",
     "details": {
@@ -363,7 +363,7 @@ export const products: Product[] = [
     "name": "Silver Coin Besan",
     "slug": "silver-coin-besan",
     "brand": "Sanghvi Food Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Silver-Coin-Besan.png",
     "aiHint": "besan packet",
     "moq": "2.4 Ton",
     "details": {
@@ -380,7 +380,7 @@ export const products: Product[] = [
     "name": "Silver Coin Maida",
     "slug": "silver-coin-maida",
     "brand": "Sanghvi Food Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Silver-Coin-Maida.jpeg",
     "aiHint": "maida packet",
     "moq": "2.2 Ton",
     "details": {
@@ -397,7 +397,7 @@ export const products: Product[] = [
     "name": "Silver Coin Atta",
     "slug": "silver-coin-atta",
     "brand": "Sanghvi Food Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Silver-Coin-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "4.3 Ton",
     "details": {
@@ -414,7 +414,7 @@ export const products: Product[] = [
     "name": "Kohinoor Heera Atta",
     "slug": "kohinoor-heera-atta",
     "brand": "Sanghvi Food Pvt Ltd",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Kohinoor-Heera-Aata.jpeg",
     "aiHint": "atta packet",
     "moq": "1.7 Ton",
     "details": {
@@ -431,7 +431,7 @@ export const products: Product[] = [
     "name": "Sarvottam Chana Daal",
     "slug": "sarvottam-chana-daal",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Sarvouttam-Chana-Dal.jpeg",
     "aiHint": "lentils packet",
     "moq": "3.0 Ton",
     "details": {
@@ -448,7 +448,7 @@ export const products: Product[] = [
     "name": "Sarvottam Chana Besan",
     "slug": "sarvottam-chana-besan",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Chana-Besan.jpeg",
     "aiHint": "besan packet",
     "moq": "3.7 Ton",
     "details": {
@@ -465,7 +465,7 @@ export const products: Product[] = [
     "name": "Shreeji Pashu Aahar Churi Toor",
     "slug": "shreeji-pashu-aahar-churi-toor",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Pashu-Tuar-Choori.jpeg",
     "aiHint": "food product",
     "moq": "4.6 Ton",
     "details": {
@@ -482,7 +482,7 @@ export const products: Product[] = [
     "name": "Shreeji Pashu Aahar Churi Chana",
     "slug": "shreeji-pashu-aahar-churi-chana",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Pashu-Chana-Choori.jpeg",
     "aiHint": "food product",
     "moq": "0.5 Ton",
     "details": {
@@ -499,7 +499,7 @@ export const products: Product[] = [
     "name": "Shreeji Toor Daal",
     "slug": "shreeji-toor-daal",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Toor-Daal.jpeg",
     "aiHint": "lentils packet",
     "moq": "2.1 Ton",
     "details": {
@@ -516,7 +516,7 @@ export const products: Product[] = [
     "name": "Shreeji Chana Besan",
     "slug": "shreeji-chana-besan",
     "brand": "Shreeji Protein",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/Shreeji-Chana-Besan.jpeg",
     "aiHint": "besan packet",
     "moq": "1.2 Ton",
     "details": {
@@ -533,7 +533,7 @@ export const products: Product[] = [
     "name": "Pasta",
     "slug": "pasta",
     "brand": "Ss Food Industries",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/SS-Pasta.png",
     "aiHint": "pasta packet",
     "moq": "4.8 Ton",
     "details": {
@@ -550,7 +550,7 @@ export const products: Product[] = [
     "name": "Soya Chunks",
     "slug": "soya-chunks",
     "brand": "Ss Food Industries",
-    "image": "https://placehold.co/600x600.png",
+    "image": "/assets/products/SS-SoyaChunks.png",
     "aiHint": "soya chunks",
     "moq": "1.4 Ton",
     "details": {

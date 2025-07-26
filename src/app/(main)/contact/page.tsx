@@ -41,7 +41,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Address</h3>
-                    <p className="text-muted-foreground">123 Hindeshwar Avenue, Growth City, ST 54321</p>
+                    <p className="text-muted-foreground">B3, My-Space Basant Vihar Colony, Vijay Nagar, Indore</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -50,7 +50,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <p className="text-muted-foreground">(123) 456-7890</p>
+                    <p className="text-muted-foreground">(+91) 77738-77733</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -59,13 +59,13 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground">Email</h3>
-                    <p className="text-muted-foreground">info@hindeshwarconsulting.com</p>
+                    <p className="text-muted-foreground">hindeshwarconsultancy@gmail.com</p>
                   </div>
                 </div>
                 <div className="pt-4">
                    <h3 className="font-semibold text-foreground mb-2">Business Hours</h3>
-                   <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 5:00 PM</p>
-                   <p className="text-muted-foreground">Saturday - Sunday: Closed</p>
+                   <p className="text-muted-foreground">Monday - Friday: 9:00 AM - 8:00 PM</p>
+                   <p className="text-muted-foreground">Saturday - Sunday: 1:00 PM - 5:00 PM</p>
                 </div>
               </div>
             </AnimatedSection>
@@ -76,7 +76,7 @@ export default function ContactPage() {
       <AnimatedSection animationType="slideInFromBottom" delay={200}>
         <section className="h-[400px] md:h-[500px] bg-secondary relative">
           <Image
-              src="https://placehold.co/1200x500.png"
+              src="/assets/images/Office.jpg"
               alt="Map to Hindeshwar Consulting"
               fill
               className="opacity-30 object-cover"
@@ -87,7 +87,7 @@ export default function ContactPage() {
                   <h3 className="text-2xl font-headline text-foreground mb-3">Visit Us</h3>
                   <p className="text-muted-foreground mb-4">Find our office location on the map.</p>
                    <iframe 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890123456!2d-0.1234567890123456!3d51.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMDcnMjQuNCJTIDDDsDA3JzIzLjYiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3679.2273009943447!2d75.90014727530594!3d22.75694437936077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQ1JzI1LjAiTiA3NcKwNTQnMDkuOCJF!5e0!3m2!1sen!2sin!4v1752503391207!5m2!1sen!2sin"
                       width="100%" 
                       height="250" 
                       style={{border:0}} 

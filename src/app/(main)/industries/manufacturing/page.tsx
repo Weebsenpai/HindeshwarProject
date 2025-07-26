@@ -83,7 +83,7 @@ export default function ManufacturingPage() {
             <AnimatedSection animationType="slideInFromRight" delay={150}>
               <div className="aspect-video overflow-hidden rounded-lg shadow-2xl">
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="/assets/images/Manufacturing Industry Excellence.jpg"
                   alt="Advanced manufacturing facility or robotic arm"
                   width={600}
                   height={400}

@@ -7,26 +7,26 @@ import { AnimatedSection } from "@/components/effects/animated-section";
 
 const teamMembers = [
   {
-    name: "Dr. Eleanor Vance",
+    name: "Mr . Ashish Dubey",
     role: "Founder & CEO",
-    image: "https://placehold.co/300x300.png",
+    image: "/assets/images/Owner.png",
     bio: "Visionary leader with 20+ years of experience in strategic consulting and business transformation.",
     aiHint: "ceo professional"
   },
-  {
-    name: "Marcus Chen",
-    role: "Lead Strategist",
-    image: "https://placehold.co/300x300.png",
-    bio: "Expert in market analysis and operational excellence, driving impactful results for clients.",
-    aiHint: "strategist business"
-  },
-  {
-    name: "Aisha Khan",
-    role: "Senior Consultant, Innovation",
-    image: "https://placehold.co/300x300.png",
-    bio: "Specializes in fostering innovation and guiding companies through digital transformation.",
-    aiHint: "consultant innovation"
-  },
+  // {
+  //   name: "Marcus Chen",
+  //   role: "Lead Strategist",
+  //   image: "https://placehold.co/300x300.png",
+  //   bio: "Expert in market analysis and operational excellence, driving impactful results for clients.",
+  //   aiHint: "strategist business"
+  // },
+  // {
+  //   name: "Aisha Khan",
+  //   role: "Senior Consultant, Innovation",
+  //   image: "https://placehold.co/300x300.png",
+  //   bio: "Specializes in fostering innovation and guiding companies through digital transformation.",
+  //   aiHint: "consultant innovation"
+  // },
 ];
 
 const values = [
@@ -83,7 +83,7 @@ export default function AboutPage() {
             <AnimatedSection animationType="slideInFromRight" delay={150}>
               <div className="aspect-video overflow-hidden rounded-lg shadow-2xl">
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="/assets/images/AboutUs.jpg"
                   alt="Hindeshwar Consulting office or team meeting"
                   width={600}
                   height={400}
@@ -146,14 +146,14 @@ export default function AboutPage() {
       </section>
 
       <section className="py-16 md:py-24 bg-secondary">
-        <div className="container">
+        <div className="container flex flex-col items-center">
           <AnimatedSection animationType="fadeIn" delay={50}>
             <div className="text-center mb-12">
               <h2 className="font-headline text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Meet Our Team</h2>
               <p className="mt-4 text-lg text-muted-foreground">Experienced professionals dedicated to your success.</p>
             </div>
           </AnimatedSection>
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="w-1/3 flex grid grid-cols-1">
             {teamMembers.map((member, index) => (
               <AnimatedSection key={member.name} animationType="slideInFromBottom" delay={100 + index * 100}>
                 <div className="rounded-lg border border-border bg-background p-6 text-center shadow-xl hover:shadow-2xl transition-shadow">

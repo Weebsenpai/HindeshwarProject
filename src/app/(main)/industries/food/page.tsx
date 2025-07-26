@@ -83,7 +83,7 @@ export default function FoodPage() {
             <AnimatedSection animationType="slideInFromRight" delay={150}>
               <div className="aspect-video overflow-hidden rounded-lg shadow-2xl">
                 <Image
-                  src="https://placehold.co/600x400.png"
+                  src="/assets/images/Food & Beverage Industry.jpg"
                   alt="Fresh produce or food processing facility"
                   width={600}
                   height={400}

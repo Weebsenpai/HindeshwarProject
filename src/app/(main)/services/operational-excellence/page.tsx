@@ -31,7 +31,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Business Process Re-engineering.jpg",
       imageAlt: "Business Process Re-engineering - Hindeshwar Consulting",
       imageHint: "workflow optimization"
     },
@@ -57,7 +57,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Operating Model Design.jpg",
       imageAlt: "Operating Model Design - Hindeshwar Consulting",
       imageHint: "operating model"
     },
@@ -83,7 +83,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Organisation Design.jpg",
       imageAlt: "Organisation Design - Hindeshwar Consulting",
       imageHint: "organization design"
     }

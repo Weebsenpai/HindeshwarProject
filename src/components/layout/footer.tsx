@@ -40,7 +40,6 @@ export function Footer() {
               <li><Link href="/products" className="text-sm text-muted-foreground hover:text-primary transition-colors" prefetch={false}>Products</Link></li>
               <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors" prefetch={false}>About Us</Link></li>
               <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors" prefetch={false}>Contact</Link></li>
-              <li><Link href="/cta-generator" className="text-sm text-muted-foreground hover:text-primary transition-colors" prefetch={false}>AI Tools</Link></li>
             </ul>
           </div>
           <div>
@@ -55,9 +54,9 @@ export function Footer() {
            <div>
             <h4 className="font-headline text-lg font-semibold mb-4 text-foreground">Contact Info</h4>
             <address className="not-italic text-sm text-muted-foreground space-y-3">
-                <p>123 Hindeshwar Ave,<br/>Growth City, ST 54321</p>
-                <p>Email: <Link href="mailto:info@hindeshwarconsulting.com" className="hover:text-primary">info@hindeshwarconsulting.com</Link></p>
-                <p>Phone: <Link href="tel:+11234567890" className="hover:text-primary">(123) 456-7890</Link></p>
+                <p>B3, My-Space Basant Vihar Colony, <br/>Vijay Nagar, Indore</p>
+                <p>Email: <Link href="mailto:info@hindeshwarconsulting.com" className="hover:text-primary">hindeshwarconsultancy@gmail.com</Link></p>
+                <p>Phone: <Link href="tel:+11234567890" className="hover:text-primary">(+91) 77738-77733</Link></p>
             </address>
           </div>
         </div>

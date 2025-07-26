@@ -31,7 +31,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Sales & Channel Management.jpg",
       imageAlt: "Sales & Channel Management - Hindeshwar Consulting",
       imageHint: "sales team"
     },
@@ -57,7 +57,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Product & Portfolio Management.jpg",
       imageAlt: "Product & Portfolio Management - Hindeshwar Consulting",
       imageHint: "product portfolio"
     },
@@ -83,7 +83,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/B2B Go-To-Market Strategy.jpg",
       imageAlt: "B2B Go-To-Market Strategy - Hindeshwar Consulting",
       imageHint: "b2b market"
     }

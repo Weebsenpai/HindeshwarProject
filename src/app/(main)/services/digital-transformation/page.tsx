@@ -30,7 +30,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Strategy & Analysis (Digital).jpg",
       imageAlt: "Digital Strategy & Analysis - Hindeshwar Consulting",
       imageHint: "digital interface"
     },
@@ -55,7 +55,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Innovation.jpg",
       imageAlt: "Innovation - Hindeshwar Consulting",
       imageHint: "lightbulb idea"
     },
@@ -81,7 +81,7 @@ const pageData = {
           </ul>
         </>
       ),
-      imageSrc: "https://placehold.co/600x400.png",
+      imageSrc: "/assets/images/Digital Transformation Delivery.jpg",
       imageAlt: "Digital Transformation Delivery - Hindeshwar Consulting",
       imageHint: "project team"
     }

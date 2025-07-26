@@ -127,9 +127,6 @@ export function Header() {
             <NavLinks items={navItems} />
           </nav>
           <div className="hidden md:flex items-center gap-2">
-            <Button variant="ghost" size="icon" aria-label="Search" className="text-foreground hover:text-primary">
-              <Search className="h-5 w-5" />
-            </Button>
             <ThemeSwitcher />
           </div>
           <Sheet>
