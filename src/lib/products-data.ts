@@ -74,7 +74,7 @@ export const products: Product[] = [
     "name": "Aaharshri Bran",
     "slug": "aaharshri-bran",
     "brand": "Aaahar Shri India Agro Pvt Ltd",
-    "image": "/assets/products/AaharShri-Bran.png",
+    "image": "/assets/products/Aaharshri-Bran.png",
     "aiHint": "food product",
     "moq": "3.2 Ton",
     "details": {
